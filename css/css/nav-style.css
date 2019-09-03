@@ -1,0 +1,37 @@
+header {
+	background-color: #333;
+	padding: 10px;
+	margin: 20px auto;
+	justify-content: center;
+	max-width: 1200px;
+}
+
+nav {
+	display: flex;
+  	justify-content: space-between;
+}
+
+.nav-logo img {
+	width: 250px;
+	height: auto;
+}
+
+.nav-menu {
+	display: flex;
+}
+
+.nav-menu a {
+	padding: 5px 40px;
+	margin: 5px 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.active {
+	background-color: royalblue;
+}
+
+.nav-menu a:hover {
+  background-color: lightblue;
+  color: black;
+}

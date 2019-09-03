@@ -1,0 +1,77 @@
+section {
+	margin: auto auto;
+	justify-content: center;
+	max-width: 1200px;
+	background-color: #333;
+	padding: 5px;
+	display: flex;
+}
+
+.profile {
+	width: 500px;
+	height: auto;
+	margin: 10px;
+	border-radius: 2em;
+	padding: 5px;
+}
+
+.profile .left {
+	text-align: center;
+}
+
+section button {
+	background-color: royalblue;
+  	border: none;
+  	color: white;
+  	padding: 12px 30px;
+  	cursor: pointer;
+  	font-size: 20px;
+  	width: 100%;
+  	border-radius: 2em;
+}
+
+section button:hover {
+	background-color: lightblue;
+}
+
+.biography {
+	width: 900px;
+	height: auto;
+	margin: 15px 20px;
+	border-radius: 2em;
+}
+
+.biography .right {
+	padding: 0px 25px;
+	text-align: left;
+	letter-spacing: 1px;
+	border-radius: 2em;
+}
+
+.text-area {
+	width: auto;
+	margin: auto 40px;
+}
+
+.social-links {
+	width: 100px;
+	height: auto;
+	background: #000;
+	border-radius: 2em;
+	margin: 10px;
+}
+
+.social-links .right {
+	margin: 100px auto;
+	text-align: center;
+}
+
+.social-links a {
+	size: 24px;
+	color: royalblue;
+}
+
+.social-links a:hover {
+	color: lightblue;
+}
+
